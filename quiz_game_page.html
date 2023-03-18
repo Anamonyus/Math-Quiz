@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+    <title>The Math Quiz App!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="quiz_game_login.js"></script>
+
+    <script src="main.js"></script>
+
+</head 
+<body>
+
+<div class="container" id="quizgame_div">
+    <center>
+        <h2 style="color:black;">The Math Showdown</h2>
+        <h4 id="question_turn"></h4> <span id="questionare"></span>
+<h4 id="answer_turn"></h4> <span id="answerer"></span>
+
+    <div id="output">
+    </div>
+
+    <div id="numbers">
+        <h4>Number 1</h4>
+        <input id="input1">
+        <h4>Number 2</h4>
+        <input id="input2">
+        <br>
+        <br>
+        <button class="btn btn-success" id="send" onclick="send()">Send</button>
+    </div>
+    </center>
+    <h2>Look here</h2>
+    <h4 id="player1_name"></h4> <span id="player1_score"></span>
+    <h4 id="player2_name"></h4> <span id="player2_score"></span>
+    <br>
+</div>
+
+
+    </body>

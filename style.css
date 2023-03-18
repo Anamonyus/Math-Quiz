@@ -1,0 +1,35 @@
+#Top_div{
+    background-color: burlywood;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-position: center;
+}
+
+#Player_1 {
+    background-color:salmon;
+    
+}
+
+#Player_2 {
+    background-color:salmon;
+    
+}
+
+#button_join {
+    width: 200px;
+}
+
+#output
+{
+    background:white;
+    border-radius:10px;
+    border-top:10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+
+#quizgame_div {
+    background-color: gray;
+    border-top: 10px;
+}
+
